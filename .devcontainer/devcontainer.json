@@ -1,0 +1,29 @@
+{
+	"name": "astro_tutorial",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
+			"plugins": "ssh-agent npm",
+			"omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions",
+			"username": "node"
+		}
+	},
+
+	// "postCreateCommand": "npm install",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"mhutchie.git-graph",
+				"esbenp.prettier-vscode",
+				"oderwat.indent-rainbow",
+				"christian-kohler.path-intellisense",
+				"naumovs.color-highlight",
+				"ecmel.vscode-html-css"
+			],
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "zsh"
+			}
+		}
+	}
+}
