@@ -19,7 +19,8 @@
 				"oderwat.indent-rainbow",
 				"christian-kohler.path-intellisense",
 				"naumovs.color-highlight",
-				"ecmel.vscode-html-css"
+				"ecmel.vscode-html-css",
+				"astro-build.astro-vscode"
 			],
 			"settings": {
 				"terminal.integrated.defaultProfile.linux": "zsh"
