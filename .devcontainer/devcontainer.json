@@ -1,47 +1,43 @@
 {
-	"name": "astro_tutorial",
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
-	"features": {
-		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
-			"plugins": "ssh-agent npm",
-			"omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions",
-			"username": "node"
-		}
-	},
+    "name": "astro_tutorial",
+    "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+    "features": {
+        "ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
+            "plugins": "ssh-agent npm",
+            "omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions",
+            "username": "node"
+        }
+    },
 
-	// "postCreateCommand": "npm install",
+    // "postCreateCommand": "npm install",
 
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"mhutchie.git-graph",
-				"esbenp.prettier-vscode",
-				"oderwat.indent-rainbow",
-				"christian-kohler.path-intellisense",
-				"naumovs.color-highlight",
-				"ecmel.vscode-html-css",
-				"astro-build.astro-vscode"
-			],
-			"settings": {
-				"terminal.integrated.defaultProfile.linux": "zsh",
-				"files.autoSave": "afterDelay",
-				"editor.formatOnSave": true,
-				"editor.formatOnPaste": true,
-				"prettier.jsxSingleQuote": true,
-				"prettier.printWidth": 120,
-				"prettier.semi": false,
-				"prettier.singleQuote": true,
-				"editor.tabSize": 4,
-				"workbench.colorCustomizations": {
-					// タイトルバーの背景色
-					"titleBar.activeBackground": "#68A063",
-					"titleBar.inactiveBackground": "#68A063",
-					// タイトルバーの文字色
-					"titleBar.activeForeground": "#303030",
-					"statusBar.background": "#3C873A",
-					"statusBar.foreground": "#303030"
-				}
-			}
-		}
-	}
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mhutchie.git-graph",
+                "esbenp.prettier-vscode",
+                "oderwat.indent-rainbow",
+                "christian-kohler.path-intellisense",
+                "naumovs.color-highlight",
+                "ecmel.vscode-html-css",
+                "astro-build.astro-vscode"
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "zsh",
+                "files.autoSave": "afterDelay",
+                "editor.formatOnSave": true,
+                "editor.formatOnPaste": true,
+                "editor.tabSize": 4,
+                "workbench.colorCustomizations": {
+                    // タイトルバーの背景色
+                    "titleBar.activeBackground": "#68A063",
+                    "titleBar.inactiveBackground": "#68A063",
+                    // タイトルバーの文字色
+                    "titleBar.activeForeground": "#303030",
+                    "statusBar.background": "#3C873A",
+                    "statusBar.foreground": "#303030"
+                }
+            }
+        }
+    }
 }
