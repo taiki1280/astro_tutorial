@@ -27,7 +27,10 @@
                 "files.autoSave": "afterDelay",
                 "editor.formatOnSave": true,
                 "editor.formatOnPaste": true,
-                "editor.tabSize": 4,
+                "editor.tabSize": 2,
+                "[json]": {
+                    "editor.tabSize": 4
+                },
                 "workbench.colorCustomizations": {
                     // タイトルバーの背景色
                     "titleBar.activeBackground": "#68A063",
