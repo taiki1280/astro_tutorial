@@ -1,0 +1,11 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: 'astro-tutorial'
+
+networks:
+  default:
+    external: true
+    name: taiki-network
