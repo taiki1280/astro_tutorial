@@ -20,7 +20,9 @@
                 "christian-kohler.path-intellisense",
                 "naumovs.color-highlight",
                 "ecmel.vscode-html-css",
-                "astro-build.astro-vscode"
+                "astro-build.astro-vscode",
+                "ICS.japanese-proofreading",
+                "DavidAnson.vscode-markdownlint"
             ],
             "settings": {
                 "terminal.integrated.defaultProfile.linux": "zsh",
